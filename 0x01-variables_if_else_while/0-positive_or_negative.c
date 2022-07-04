@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* The variable n will store a different value every time you will run this program */
-
+/**
+* main - Prints a random number and states it's sign
+* Return: 0
+*/
 int main(void)
 {
 	int n;
@@ -11,10 +13,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-		printf("%d is positive\n", n)
-	else if (n = 0)
-		printf("%d is zero\n", n)
-	else (n < 0)
-		printf("%d is negative\n", n)
+		printf("%d is positive\n", n);
+	else if (n == 0)
+		printf("%d is zero\n", n);
+	else if (n < 0)
+		printf("%d is negative\n", n);
 	return (0);
 }
