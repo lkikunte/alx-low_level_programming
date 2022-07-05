@@ -3,7 +3,7 @@
 /**
   * main - Prints all decimal digits in numerical order
   *
-  * Return: Always (Success)
+  * Return: 0
   */
 int main(void)
 {
