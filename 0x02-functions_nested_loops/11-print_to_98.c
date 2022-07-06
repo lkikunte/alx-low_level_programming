@@ -15,14 +15,15 @@ if (d < 0)
 {
 	for (n = n; n < 98; n++)
 		printf("%i, ", n);
-	printf("98\n");
+	printf("98");
+	printf("\n");
 }
 else
 {
 	for (n = n; n > 98; n--)
 		printf("%i, ", n);
 	printf("98");
+	printf("\n");
 }
-_putchar('\n');
 return;
 }
