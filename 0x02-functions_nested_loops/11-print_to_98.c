@@ -13,7 +13,7 @@ int d;
 d = n - 98;
 if (d < 0)
 {
-	for (n; n < 98; n++)
+	for (n = n; n < 98; n++)
 	{
 		_putchar(n + '0');
 		_putchar(',');
@@ -23,7 +23,7 @@ if (d < 0)
 }
 else
 {
-	for (n; n > 98; n--)
+	for (n = n; n > 98; n--)
 	{
 		_putchar(n + '0');
 		_putchar(',');
