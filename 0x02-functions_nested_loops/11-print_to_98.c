@@ -22,6 +22,7 @@ if (d < 0)
 	printf("98");
 }
 else
+{
 	for (n; n > 98; n--)
 	{
 		_putchar(n + '0');
@@ -29,6 +30,6 @@ else
 		_putchar(' ');
 	}
 	printf("98");
-
+}
 return;
 }
