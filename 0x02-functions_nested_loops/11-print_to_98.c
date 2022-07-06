@@ -14,21 +14,13 @@ d = n - 98;
 if (d < 0)
 {
 	for (n = n; n < 98; n++)
-	{
-		_putchar(n + '0');
-		_putchar(',');
-		_putchar(' ');
-	}
-	printf("98");
+		printf("%i, ", n);
+	printf("98\n");
 }
 else
 {
 	for (n = n; n > 98; n--)
-	{
-		_putchar(n + '0');
-		_putchar(',');
-		_putchar(' ');
-	}
+		printf("%i, ", n);
 	printf("98");
 }
 return;
