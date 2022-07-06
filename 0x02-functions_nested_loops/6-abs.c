@@ -14,7 +14,7 @@ int v;
 		v = n * 1;
 		_putchar(v);
 	}
-	else if (n < 0)
+	else
 	{
 		v = n * -1;
 		_putchar(v);
