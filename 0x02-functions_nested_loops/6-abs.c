@@ -2,7 +2,7 @@
 
 /**
 * _abs - Computes and prints the absolute value of an integer
-* @int: Number to be computed.
+* @n: Number to be computed.
 * Return: int of absolute value.
 */
 int _abs(int n)
@@ -12,11 +12,11 @@ int v;
 	if (n >= 0)
 	{
 		v = n * 1;
-		_putchar(v);
+		return (v);
 	}
 	else
 	{
 		v = n * -1;
-		_putchar(v);
+		return (v);
 	}
 }
