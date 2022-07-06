@@ -23,5 +23,6 @@ else
 		printf("%i, ", n);
 	printf("98");
 }
+_putchar('\n');
 return;
 }
