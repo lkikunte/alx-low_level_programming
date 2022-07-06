@@ -10,17 +10,17 @@ int h, h1, m, m1;
 
 	for (h = 0; h < 3; h++)
 	{
-	_putchar(h);
+	_putchar(h + '0');
 	for (h1 = 0; h1 < 10; h1++)
-	{	_putchar(h1);
+	{	_putchar(h1 + '0');
 		_putchar(':');
 		for (m = 0; m < 10; m++)
 		{
-			_putchar(m);
+			_putchar(m + '0');
 			for (m1 = 0; m1 < 10; m1++)
-				_putchar(m1);
+				_putchar(m1 + '0');
 		}
 	}
-	}
 	_putchar('\n');
+	}
 }
