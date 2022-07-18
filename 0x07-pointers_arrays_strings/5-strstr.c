@@ -15,13 +15,12 @@ char *_strstr(char *haystack, char *needle)
 		while (needle[b])
 		{
 			if (haystack[a + b] != needle[b])
-			{
 				break;
-				b++;
-			}
+			b++;
 		if (needle[b] == '\0')
 			return (haystack + a);
 		a++;
 		}
+	}
 	return ('\0');
 }
