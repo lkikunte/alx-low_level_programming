@@ -1,6 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <udis86.h>
+
+/**
+* ud_set_syntax - set the output syntax
+* @u: ...
+* @t: ...
+*/
+ud_set_syntax(struct ud *u, void (*t)(struct ud *))
+{
+	u->translator = t;
+}
+
 /**
 * main - prints the opcodes of ints own main function.
 * @argc: argument c
