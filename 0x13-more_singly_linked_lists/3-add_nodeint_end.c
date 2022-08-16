@@ -3,12 +3,7 @@
 #include "lists.h"
 
 /**
-* add_nodeint_end - Adds a new node to the end of a #include <stdlib.h>
-#include <stdio.h>
-#include "lists.h"
-
-/**
-  * add_nodeint_end - Adds a new node to the end of a listint_t list
+* add_nodeint_end - Adds a new node to the end of a listint_t list
 * @head: pointer to head of the linked list
 * @n: The value to add to the end of linked list
 * Return: The address of the new element, or NULL it failed
